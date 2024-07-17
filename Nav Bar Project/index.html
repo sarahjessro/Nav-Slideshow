@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet">
+            
+
+     <link href="./styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="navbar" id="navbar1">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+        </div>
+      <h1 class="header" style="text-align:center"><img class="taco-img" src="./tacos.png">Sarah's Taco Truck</h1>
+      <h2 class="description">Yummy tacos, on the road.</h2>
+      <div class="image-carousel-container">
+
+       <div class="carousel-img">
+        <img src="./Taco-Truck-3-scaled.jpg" style="width:100%">
+       </div>
+
+       <div class="carousel-img">
+        <img src="./tacomenu.jpeg" style="width:100%">
+       </div>
+
+        <div class="carousel-img">
+            <img src="./taco 1.jpg" style="width:100%">
+        </div>
+
+        <div class="carousel-img">
+            <img src="./taco2.jpg" style="width:100%">
+        </div>
+        
+      </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+      <script src="./index.js"></script>
+    </body>
+</html>
